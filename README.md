@@ -129,6 +129,19 @@ Publish the website in the given URL.
             color: #fff;
             cursor: pointer;
         }
+        footer {
+            background-color: rgba(125, 205, 147, 0.9); 
+            color: rgb(53, 3, 42);
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -151,6 +164,11 @@ Publish the website in the given URL.
         <span class="close">&times;</span>
         <img id="modal-img" src="" alt="Enlarged">
     </div>
+    <footer>
+        <div class="container">
+            <p>Designed and Developed by Anjali.K </p>
+        </div>
+    </footer> 
 
     <script>
         
@@ -186,7 +204,7 @@ Publish the website in the given URL.
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (33).png>)
+![alt text](<Screenshot (34).png>)
 
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
