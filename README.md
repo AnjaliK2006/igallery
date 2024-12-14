@@ -41,7 +41,10 @@ Publish the website in the given URL.
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #5e0606;
+            background-image: url("wildlife.png"); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: #fff;
         }
 
@@ -72,17 +75,25 @@ Publish the website in the given URL.
             text-align: center;
             width: 200px;
             margin: 10px;
-            border: 2px solid #3b0303;
             border-radius: 10px;
             overflow: hidden;
             transition: transform 0.3s;
         }
 
+
         .gallery-item img {
-            width: 100%;
+            width: 200px; 
             height: 200px;
             object-fit: cover;
+            border-radius: 50%; 
+            border: 3px solid #fff; 
+            box-sizing: border-box; 
+            margin: 0;
+            padding: 0; 
         }
+
+
+        
 
         .gallery-item:hover {
             transform: scale(1.05);
@@ -107,6 +118,7 @@ Publish the website in the given URL.
             max-width: 90%;
             max-height: 90%;
             border: 2px solid #fff;
+            border-radius: 10px; 
         }
 
         #modal .close {
@@ -170,10 +182,11 @@ Publish the website in the given URL.
 </body>
 </html>
 
+
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (31).png>)
+![alt text](<Screenshot (33).png>)
 
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
